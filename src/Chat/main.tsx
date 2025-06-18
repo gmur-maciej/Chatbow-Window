@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import ChatWindow from './Chat.tsx'
-import { AcceptedLanguages } from './models/AcceptedLanguages.ts';
+import type { AcceptedLanguages } from './models/AcceptedLanguages.ts';
 
 function detectBrowserLanguage(): AcceptedLanguages {
   let primaryLanguage: string = 'en';
